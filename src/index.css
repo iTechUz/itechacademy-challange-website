@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 100px;
+  background: rgb(77, 63, 251);
+  background: radial-gradient(circle, rgba(77, 63, 251, 1) 0%, rgba(252, 166, 70, 1) 100%);
+}
+
+.i-card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 1px 1px 10px #606060;
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.person-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.22px;
+  color: #000000;
+  text-align: center;
+  border: none;
+}
+
+.bottom-card .container .row .col-12 h1 {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.card-body {
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 575px) {
+  body {
+    padding-bottom: 50px;
+  }
+
+  .i-card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #606060;
+  }
+
+  .person-name {
+    color: #000;
+  }
+
+  .title-text {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  .bottom-card .container .row .col-12 h1 {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
